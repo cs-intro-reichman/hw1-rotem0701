@@ -5,6 +5,11 @@ public class PrintTo5 {
 		// Declares an int variable, and sets it to 1
         int i = 0;
         // Complete the program's code here:
-        System.out.println(i);
+        while (i<6)
+        {
+            System.out.println(i);
+            i = i * 1;
+        }
+        System.out.println("Done");
     }
- }
+}
