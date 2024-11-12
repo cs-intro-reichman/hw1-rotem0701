@@ -16,11 +16,11 @@ public class TimeFormat {
 		if (hours < 12) {
 			dayPart = "AM";
 		}
-		if (hours > 12) {
+		else if (hours > 12) {
 			dayPart = "PM";
 			hours = hours - 12; 
 		}
-		if (hours == 12) {
+		else if (hours == 12) {
 			dayPart = "PM";
 		}
 			
